@@ -1,3 +1,8 @@
+import Quiz from "./components/Quiz/Quiz";
 export default function page() {
-  return <div>COMPTIA A+ Core 1 Quiz App</div>;
+  return (
+    <div className="m-0 h-screen">
+      <Quiz />
+    </div>
+  );
 }
